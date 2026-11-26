@@ -1,0 +1,19 @@
+{
+  "db_file": "prices.db",
+  "request_timeout": 10,
+  "telegram": {
+    "enabled": false,
+    "bot_token": "",
+    "chat_id": ""
+  },
+  "items": [
+    {
+      "name": "Example Mechanical Keyboard",
+      "url": "https://example.com/product",
+      "selector": ".price",
+      "target_price": 199.0,
+      "currency": "PLN",
+      "fallback_price": 215.5
+    }
+  ]
+}
